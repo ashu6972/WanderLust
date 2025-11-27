@@ -62,7 +62,7 @@ body{
  
  /* cards */
 
- .card{
+ .listing-card{
     border: none !important;
     margin: 2rem;
  }
@@ -118,10 +118,14 @@ body{
     height: 30vh;
  }
 
- .btns {
-    display: flex;;
+  /* .btns{ */
+    /* display: flex; */
+ /* } */
+ 
+ .btns form {
+    display: inline;
  }
-
+ 
  .show-card{
    padding-left: 0;
    padding-right: 0;
